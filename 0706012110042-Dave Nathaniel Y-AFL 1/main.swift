@@ -271,6 +271,7 @@ func cartuhuy(){
         print("Kosong bruv")
     }else{
         for i in 0..<nama_toko.count{
+            print("Your Order From \(nama_toko[i]):")
             for ihiy in cart1{
                 if ihiy.0 == nama_toko[i]{
                     print("- \(ihiy.1) X\(ihiy.2)")
