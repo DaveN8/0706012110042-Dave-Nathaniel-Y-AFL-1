@@ -352,7 +352,6 @@ func payout(){
                 print("Please enter the valid amount")
                 print()
                 payout()
-                //        }else if amount.{
             }else if amount! > 0{
                 if amount! >= total{
                     print("""
