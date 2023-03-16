@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		04015EEA29AD9E530080962D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04015EE929AD9E530080962D /* main.swift */; };
-		04015EF329B17FF90080962D /* Toko.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04015EF229B17FF90080962D /* Toko.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,7 +25,6 @@
 /* Begin PBXFileReference section */
 		04015EE629AD9E530080962D /* 0706012110042-Dave Nathaniel Y-AFL 1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "0706012110042-Dave Nathaniel Y-AFL 1"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04015EE929AD9E530080962D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		04015EF229B17FF90080962D /* Toko.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toko.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +58,6 @@
 			isa = PBXGroup;
 			children = (
 				04015EE929AD9E530080962D /* main.swift */,
-				04015EF229B17FF90080962D /* Toko.swift */,
 			);
 			path = "0706012110042-Dave Nathaniel Y-AFL 1";
 			sourceTree = "<group>";
@@ -123,7 +120,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04015EF329B17FF90080962D /* Toko.swift in Sources */,
 				04015EEA29AD9E530080962D /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
