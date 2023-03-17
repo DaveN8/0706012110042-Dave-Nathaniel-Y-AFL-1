@@ -370,7 +370,7 @@ func payout(){
                 repeat{
                     print("Press [return] to go back to main screen")
                     userInput = readLine()!.lowercased()
-                }while userInput != "return"
+                }while userInput != ""
                 cart.removeAll()
                 total = 0
                 print()
