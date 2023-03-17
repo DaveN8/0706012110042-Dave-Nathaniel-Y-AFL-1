@@ -293,7 +293,7 @@ func menu(toko: String){
 
 func cartuhuy(){
     if cart.isEmpty {
-        print("Kosong bruv")
+        print("The Keranjang is Kosong")
         print()
     }else{
         for i in 0..<nama_toko.count{
@@ -321,7 +321,13 @@ func cartuhuy(){
     case "b" :
         firstscreen()
     case "p" :
-        payout()
+        if total != 0 {
+            payout()
+        }else{
+           print("There is nothing to pay")
+            print()
+            cartuhuy()
+        }
     default:
         print("Please Enter the Right Option")
         print()
