@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		04015EEA29AD9E530080962D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04015EE929AD9E530080962D /* main.swift */; };
+		04C0CE2A29D66E3300A2262C /* Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C0CE2929D66E3300A2262C /* Cart.swift */; };
+		04C0CE2C29D66E5800A2262C /* Toko.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C0CE2B29D66E5800A2262C /* Toko.swift */; };
+		04C0CE2E29D66E6100A2262C /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C0CE2D29D66E6100A2262C /* Menu.swift */; };
+		04C0CE3029D66E7200A2262C /* CheckOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C0CE2F29D66E7200A2262C /* CheckOut.swift */; };
+		04C0CE3229DDD14400A2262C /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C0CE3129DDD14400A2262C /* Order.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +30,11 @@
 /* Begin PBXFileReference section */
 		04015EE629AD9E530080962D /* 0706012110042-Dave Nathaniel Y-AFL 1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "0706012110042-Dave Nathaniel Y-AFL 1"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04015EE929AD9E530080962D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		04C0CE2929D66E3300A2262C /* Cart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cart.swift; sourceTree = "<group>"; };
+		04C0CE2B29D66E5800A2262C /* Toko.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toko.swift; sourceTree = "<group>"; };
+		04C0CE2D29D66E6100A2262C /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		04C0CE2F29D66E7200A2262C /* CheckOut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckOut.swift; sourceTree = "<group>"; };
+		04C0CE3129DDD14400A2262C /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,11 @@
 			isa = PBXGroup;
 			children = (
 				04015EE929AD9E530080962D /* main.swift */,
+				04C0CE2929D66E3300A2262C /* Cart.swift */,
+				04C0CE2B29D66E5800A2262C /* Toko.swift */,
+				04C0CE2D29D66E6100A2262C /* Menu.swift */,
+				04C0CE2F29D66E7200A2262C /* CheckOut.swift */,
+				04C0CE3129DDD14400A2262C /* Order.swift */,
 			);
 			path = "0706012110042-Dave Nathaniel Y-AFL 1";
 			sourceTree = "<group>";
@@ -120,7 +135,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04C0CE3229DDD14400A2262C /* Order.swift in Sources */,
 				04015EEA29AD9E530080962D /* main.swift in Sources */,
+				04C0CE2C29D66E5800A2262C /* Toko.swift in Sources */,
+				04C0CE2E29D66E6100A2262C /* Menu.swift in Sources */,
+				04C0CE3029D66E7200A2262C /* CheckOut.swift in Sources */,
+				04C0CE2A29D66E3300A2262C /* Cart.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
